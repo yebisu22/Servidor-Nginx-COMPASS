@@ -41,6 +41,7 @@ e essa tela aparecerá
 E está feito sua instalação e ativação do nginx 🙂
 
 
+
 ●**CONFIGURANDO UM SCRIPT QUE FAÇA A VALIDAÇÃO DO SERVIÇO ONLINE E OFFLINE**
 
 Para fazermos isso precisamos criar um diretório com um nome de sua preferencia (no exemplo usarei "Tang")
@@ -50,10 +51,60 @@ Para fazermos isso precisamos criar um diretório com um nome de sua preferencia
 após criar um diretório entre nele ```/tang```
 e crie um arquivo para armazenar dados ```touch checador_nginx.sh``` 
 
-Agora iremos fazer o script dentro do arquivo "checador_nginx.h" usando ```vi checador_nginx.sh```
+
+também crie um arquivo para guardar os arquvios log ```nginx_status.log``` (temporário) 
+
+
+Agora iremos fazer o script dentro do arquivo "checador_nginx.sh" usando ```vi checador_nginx.sh```
 
 (aperte a tecla "i" para poder inserir caracteres) 
 
 ●**SCRIPT USADO** 
-```A```
+```sh
+
+#Codigo usado para definir arquivo de login
+
+ LOG_FILE="/root/Tang/nginx_status.log."
+
+ #Verificar ativação do servidor
+
+ if systemctl is-active --quiet nginx; then
+  
+     echo "$(date): TRECO TÁ RODANDO." >> "$LOG_FILE"
+
+else 
+     echo "$(date): TRECO NÃO TA RODANDO." >> "$LOG_FILE"
+
+
+
+ fi 
+
+```
+**Breve explicação do que cada coisa faz no codigo**
+
+-LOG_FILE é a variavel do script que será armazenada  em "/root/Tang/nginx status log."
+
+-"if systemctl is-active --quiet nginx; then" faz a verificação se o servidor esta ativo e retorna um codigo de saida
+
+-echo é o comando que exibe a mensagem
+
+-date adiciona data e hora 
+
+-treco é um termo mais especifica para destacar a mensagem personalizada do servidor ativo ou não 
+
+-else retorna algo diferente se ele estiver offline
+
+Etapa concluida 😄
+
+●**SEPARANDO OS ARQUIVOS DE SAIDA PARA LUGARES DIFERENTES**
+
+Para separar os arquivos de saida, precisamos criar mais dois arquivos dentro do diretorio (usarei o termo rodando para se referir a online)
+
+```cat> rodando.log```
+e ```cat> nao_rodando.log```
+
+após criar, vamos voltar la no arquivo base do nosso codigo ```vi checador_nginx.sh``` 
+
+fazendo algumas mudanças o codigo ficará assim:
+
 
