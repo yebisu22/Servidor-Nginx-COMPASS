@@ -107,4 +107,43 @@ após criar, vamos voltar la no arquivo base do nosso codigo ```vi checador_ngin
 
 fazendo algumas mudanças o codigo ficará assim:
 
+```sh
+#Codigo usado para definir arquivo de login separado
 
+ LOG_FILE="/root/Tang/rodando.log"
+ LOG_FILE2="/root/Tang/nao_rodando.log"
+
+ #Verificar ativação do servidor separada
+
+ if systemctl is-active --quiet nginx; then
+  
+     echo "$(date): TRECO TÁ RODANDO." >> "$LOG_FILE"
+
+else 
+     echo "$(date): TRECO NÃO TA RODANDO." >> "$LOG_FILE2"
+
+
+
+ fi        
+```
+Perceba que criamos mais um arquivo log (LOG_FILE2), ele é usado para saida offline
+
+e por ultimo mas não menos importante.
+
+●**SCRIPT PARA EXECUÇÃO AUTOMATICA A CADA 5 MINUTOS**
+
+Para isso precisaremos copiar o arquivo base para fora da pasta Tang para evitar restrições
+
+```cp ./checador_nginx.sh /root```
+
+após isso criaremos uma tarefa no agendador de tarefas
+
+```contrab -e```
+
+```*/5 * * * * * ./checador_nginx.sh```
+
+E está pronto ao final do projeto voce estará recebendo mensagens de online e offline nos arquivos "rodando e nâo rodando"
+
+para vizualizar use ```vi rodando.log``` ou ```vi nao_rodando.log``` 
+
+e algo semelhante a isso aparecerá:
