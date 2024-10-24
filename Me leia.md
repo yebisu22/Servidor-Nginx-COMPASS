@@ -24,7 +24,7 @@ e uma tela igual a essa aparecerá
 
 <p float="left">
 
- <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/0675073c43c5143413a7b5fbae9f5f8a6613bb75/IMG/nginx%20status.png" width="600" />
+ <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/0675073c43c5143413a7b5fbae9f5f8a6613bb75/IMG/nginx%20status.png" width="500" />
 </p>
 
 Para ver o servidor no navegador digite "localhost/" ou seu ip de rede local
@@ -35,5 +35,5 @@ e essa tela aparecerá
 
 <p float="left">
 
- <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/0675073c43c5143413a7b5fbae9f5f8a6613bb75/IMG/nginx%20status.png" width="600" />
+ <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/ae4c332f1dbd36cf7e2841566ba945bd7f2fa478/IMG/exemplo%202.png" width="400" />
 </p>
