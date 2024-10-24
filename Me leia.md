@@ -27,3 +27,13 @@ e uma tela igual a essa aparecerá
  <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/0675073c43c5143413a7b5fbae9f5f8a6613bb75/IMG/nginx%20status.png" width="600" />
 </p>
 
+Para ver o servidor no navegador digite "localhost/" ou seu ip de rede local
+
+(para descobrir seu ip de rede basta escrever ```ifconfig``` e copiar o ip local)
+
+e essa tela aparecerá 
+
+<p float="left">
+
+ <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/0675073c43c5143413a7b5fbae9f5f8a6613bb75/IMG/nginx%20status.png" width="600" />
+</p>
