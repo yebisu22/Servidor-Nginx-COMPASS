@@ -1,4 +1,4 @@
-**INSTALAÇÂO NGINX**
+ ● **INSTALAÇÂO NGINX**
 
 Primeiro passo para instalão do Nginx é digitar os seguintes comandnos:
 
