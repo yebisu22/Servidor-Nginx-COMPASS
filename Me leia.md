@@ -24,6 +24,6 @@ e uma tela igual a essa aparecerá
 
 <p float="left">
 
- <img src="https://raw.githubusercontent.com/yebisu22/Servidor-Nginx-COMPASS/refs/heads/main/nginx%20status.png?token=GHSAT0AAAAAACZJZ4A4R7GV37AIM3V7DICAZY2TZXQ" width="450" />
+ <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/0675073c43c5143413a7b5fbae9f5f8a6613bb75/IMG/nginx%20status.png" width="600" />
 </p>
 
