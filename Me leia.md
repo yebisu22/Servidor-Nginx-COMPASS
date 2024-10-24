@@ -8,7 +8,7 @@ Irá aperecer uma tela de confirmação parecida ou igual a essa:
 
 <p float="left">
 
- <img src="https://raw.githubusercontent.com/yebisu22/Servidor-Nginx-COMPASS/refs/heads/main/IMG/instalando-nginx.png?token=GHSAT0AAAAAACZJZ4A4BNZ3IONNPJJ46FKOZY2TPRA" width="450" />
+ <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/b90a6450ce989622302f94ac50e3b0a6059f623d/IMG/instalando-nginx.png" width="450" />
 </p>
 
 Apos a instalação, é necessario ativar o nginx e o servidor
