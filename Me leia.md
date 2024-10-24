@@ -147,3 +147,8 @@ E está pronto ao final do projeto voce estará recebendo mensagens de online e 
 para vizualizar use ```vi rodando.log``` ou ```vi nao_rodando.log``` 
 
 e algo semelhante a isso aparecerá:
+
+<p float="left">
+
+ <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/23b7fdb7a357ff4b7036ae512eea27df69569f10/IMG/Log.png" width="400" />
+</p>
