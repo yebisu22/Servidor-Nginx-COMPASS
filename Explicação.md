@@ -1,6 +1,6 @@
  ● **INSTALAÇÃO NGINX**
 
-Primeiro passo para instalão do nginx é digitar os seguintes comandnos:
+Primeiro passo para instalão do nginx é digitar os seguintes comandos:
 
 ```apt install nginx```
 
