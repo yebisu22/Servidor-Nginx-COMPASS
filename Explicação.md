@@ -1,3 +1,28 @@
+## INSTALANDO MÁQUINA VIRTUAL
+
+Para instalação da máquina virtual basta pesquisar no Google ```Oracle virtual box```
+
+abrir o link oficial da virtual box.org e fazer o download 
+
+•**Instalação da ISO linux**
+
+No projeto, eu optei por escolher o kali linux, mas isso vai de sua preferência.
+
+após instalar o arquivo ISO, adicione na máquina virtual em "Novo".
+
+<p float="left">
+
+ <img src="https://github.com/yebisu22/Maquina-virtual-Kali/blob/9217c347a6cd3fb3ba4bd93434a4a52e95b0a3be/IMG/kali%20linux%20mv.png" width="600" />
+</p>
+
+<p float="left">
+
+ <img src="https://github.com/yebisu22/Maquina-virtual-Kali/blob/4d6b7ce5eba950bb4a9d6ff3b73866c7f81ae074/IMG/ex.png" width="600" />
+</p>
+
+Após isso, configure o armazenamento virtual e estará pronta sua maquina virtual com linux.
+ 
+ 
  # **INSTALAÇÃO NGINX**
 
 Primeiro passo para instalação do nginx é digitar os seguintes comandos:
