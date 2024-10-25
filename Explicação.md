@@ -1,4 +1,4 @@
- ● **INSTALAÇÃO NGINX**
+ # **INSTALAÇÃO NGINX**
 
 Primeiro passo para instalação do nginx é digitar os seguintes comandos:
 
@@ -42,7 +42,7 @@ E está feito sua instalação e ativação do nginx 🙂
 
 
 
-●**CONFIGURANDO UM SCRIPT QUE FAÇA A VALIDAÇÃO DO SERVIÇO ONLINE E OFFLINE**
+# **CONFIGURANDO UM SCRIPT QUE FAÇA A VALIDAÇÃO DO SERVIÇO ONLINE E OFFLINE**
 
 Para fazermos isso precisamos criar um diretório com um nome de sua preferência (no exemplo usarei "Tang")
 
@@ -80,7 +80,7 @@ else
  fi 
 
 ```
-**Breve explicação do que cada coisa faz no código**
+● **Breve explicação sobre o que cada coisa faz no script**
 
 -LOG_FILE é a variavel do script que será armazenada  em "/root/Tang/nginx status log."
 
@@ -96,7 +96,7 @@ else
 
 Etapa concluída 😄
 
-●**SEPARANDO OS ARQUIVOS DE SAIDA PARA LUGARES DIFERENTES**
+# **SEPARANDO OS ARQUIVOS DE SAIDA PARA LUGARES DIFERENTES**
 
 Para separar os arquivos de saida, precisamos criar mais dois arquivos dentro do diretorio (usarei o termo rodando para se referir a online)
 
