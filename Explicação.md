@@ -12,7 +12,7 @@ após instalar o arquivo ISO, adicione na máquina virtual em "Novo".
 
 <p float="left">
 
- <img src="https://github.com/yebisu22/Maquina-virtual-Kali/blob/9217c347a6cd3fb3ba4bd93434a4a52e95b0a3be/IMG/kali%20linux%20mv.png" width="600" />
+ <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/ddf36a9cbdb0e6c88c96655053962d0422db5860/IMG/kali%20linux%20mv.png" width="600" />
 </p>
 
 <p float="left">
