@@ -155,7 +155,7 @@ Perceba que criamos mais um arquivo log (LOG_FILE2), ele é usado para saida off
 
 e por ultimo mas não menos importante.
 
-●**SCRIPT PARA EXECUÇÃO AUTOMATICA A CADA 5 MINUTOS**
+# **SCRIPT PARA EXECUÇÃO AUTOMATICA A CADA 5 MINUTOS**
 
 Para isso precisaremos copiar o arquivo base para fora da pasta Tang para evitar restrições
 
