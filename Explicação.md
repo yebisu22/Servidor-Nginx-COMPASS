@@ -17,7 +17,7 @@ após instalar o arquivo ISO, adicione na máquina virtual em "Novo".
 
 <p float="left">
 
- <img src="https://github.com/yebisu22/Maquina-virtual-Kali/blob/4d6b7ce5eba950bb4a9d6ff3b73866c7f81ae074/IMG/ex.png" width="600" />
+ <img src="https://github.com/yebisu22/Servidor-Nginx-COMPASS/blob/972f3c4334d2afe7e026612fd343d0fc8b340d10/IMG/ex.png" width="600" />
 </p>
 
 Após isso, configure o armazenamento virtual e estará pronta sua maquina virtual com linux.
